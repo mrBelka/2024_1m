@@ -1,6 +1,7 @@
 # 2024_1m
 
 [Задания](https://drive.google.com/drive/folders/1H6Lx8oZa6LBnLz5IT4-HaakGjofqpH1H)
+[Сданные лабы](https://docs.google.com/spreadsheets/d/1CwM0FKmBZ93AXCRXHblV7LC-NqlQeUUIGysMgSkUBpU/edit?gid=0#gid=0)
 
 ## Лекции 1 семестр
 ### ФИиИТ и МО
