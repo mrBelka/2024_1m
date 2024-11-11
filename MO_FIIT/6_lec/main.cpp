@@ -5,19 +5,19 @@
 
 int main()
 {
-    FILE* in = fopen("input.txt", "r");
-    FILE* out = fopen("output.txt", "w");
+    std::ifstream in("input.txt");
+    std::ofstream out("output.txt");
 
     int mas[3'000'000];
     int n;
-    fscanf(in, "%d", &n);
+    in >> n;
     for(int i=0;i<n;i++)
-        fscanf(in, "%d", &mas[i]);
+        in >> mas[i];
 
     std::sort(mas, mas+n);
 
     for(int i=0;i<n;i++)
-        fprintf(out, "%d ", mas[i]);// << " ";
+        out << mas[i] << " ";
 
     /*// 3
     int matrix[100][100];
