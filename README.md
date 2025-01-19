@@ -3,6 +3,13 @@
 [Задания](https://drive.google.com/drive/folders/1H6Lx8oZa6LBnLz5IT4-HaakGjofqpH1H)  
 [Сданные лабы](https://docs.google.com/spreadsheets/d/1CwM0FKmBZ93AXCRXHblV7LC-NqlQeUUIGysMgSkUBpU/edit?gid=0#gid=0)
 
+## Лекции 2 семестр  
+### ФИиИТ и МО
+[Лекция 12. Двусвязный циклический список. Начало рекурсии](https://t.me/programming_1m_2024/44)  
+
+### ПМ
+[Лекция 12. Двусвязный циклический список. Рекурсия, волновой алгоритм обхода лабиринта](https://t.me/programming_1m_2024/45)  
+
 ## Лекции 1 семестр
 ### ФИиИТ и МО
 [Лекция 1. Введение, стек технологий, запуск 1ой программы](https://t.me/programming_1m_2024/4)  
