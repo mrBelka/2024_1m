@@ -1,0 +1,10 @@
+^C:\GIT\2024_1M\MO_FIIT\18_LEC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/2024_1m/MO_FIIT/18_lec -BC:/Git/2024_1m/MO_FIIT/18_lec/build --check-stamp-file C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

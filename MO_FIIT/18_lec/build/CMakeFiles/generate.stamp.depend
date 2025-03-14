@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Git/2024_1m/MO_FIIT/18_lec/CMakeLists.txt
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/3.28.0-rc2/CMakeCCompiler.cmake
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/3.28.0-rc2/CMakeCXXCompiler.cmake
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/3.28.0-rc2/CMakeRCCompiler.cmake
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/3.28.0-rc2/CMakeSystem.cmake
+C:/GitSV/vcpkg/scripts/buildsystems/vcpkg.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake

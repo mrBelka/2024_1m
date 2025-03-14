@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA6A1BED-42F8-3CDD-8F9E-E64B53ADDF08}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sfml_sample</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml_sample.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml_sample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml_sample.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml_sample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml_sample.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml_sample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml_sample.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml_sample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/GitSV/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Git/2024_1m/MO_FIIT/18_lec/build/Debug/sfml_sample.exe -installedDir C:/GitSV/vcpkg/installed/x64-windows-static/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;sfml-audio-s-d.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib;C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/2024_1m/MO_FIIT/18_lec/build/Debug/sfml_sample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/2024_1m/MO_FIIT/18_lec/build/Debug/sfml_sample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/GitSV/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Git/2024_1m/MO_FIIT/18_lec/build/Release/sfml_sample.exe -installedDir C:/GitSV/vcpkg/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;sfml-audio-s-d.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib;C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/2024_1m/MO_FIIT/18_lec/build/Release/sfml_sample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/2024_1m/MO_FIIT/18_lec/build/Release/sfml_sample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/GitSV/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Git/2024_1m/MO_FIIT/18_lec/build/MinSizeRel/sfml_sample.exe -installedDir C:/GitSV/vcpkg/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;sfml-audio-s-d.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib;C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/2024_1m/MO_FIIT/18_lec/build/MinSizeRel/sfml_sample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/2024_1m/MO_FIIT/18_lec/build/MinSizeRel/sfml_sample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\2024_1m\MO_FIIT\18_lec\inc;C:\Git\2024_1m\MO_FIIT\18_lec\ext\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/GitSV/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Git/2024_1m/MO_FIIT/18_lec/build/RelWithDebInfo/sfml_sample.exe -installedDir C:/GitSV/vcpkg/installed/x64-windows-static/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;sfml-audio-s-d.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib;C:/Git/2024_1m/MO_FIIT/18_lec/ext/SFML/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/2024_1m/MO_FIIT/18_lec/build/RelWithDebInfo/sfml_sample.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/2024_1m/MO_FIIT/18_lec/build/RelWithDebInfo/sfml_sample.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\2024_1m\MO_FIIT\18_lec\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Git/2024_1m/MO_FIIT/18_lec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/2024_1m/MO_FIIT/18_lec -BC:/Git/2024_1m/MO_FIIT/18_lec/build --check-stamp-file C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\GitSV\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Git/2024_1m/MO_FIIT/18_lec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/2024_1m/MO_FIIT/18_lec -BC:/Git/2024_1m/MO_FIIT/18_lec/build --check-stamp-file C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\GitSV\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Git/2024_1m/MO_FIIT/18_lec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/2024_1m/MO_FIIT/18_lec -BC:/Git/2024_1m/MO_FIIT/18_lec/build --check-stamp-file C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\GitSV\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Git/2024_1m/MO_FIIT/18_lec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/2024_1m/MO_FIIT/18_lec -BC:/Git/2024_1m/MO_FIIT/18_lec/build --check-stamp-file C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeCXXCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeRCCompiler.cmake;C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\3.28.0-rc2\CMakeSystem.cmake;C:\GitSV\vcpkg\scripts\buildsystems\vcpkg.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\2024_1m\MO_FIIT\18_lec\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Git\2024_1m\MO_FIIT\18_lec\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Git\2024_1m\MO_FIIT\18_lec\build\ZERO_CHECK.vcxproj">
+      <Project>{EB5563DC-A5BE-36CA-B249-F7C43291399C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

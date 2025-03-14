@@ -1,0 +1,3 @@
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/sfml_sample.dir
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/ALL_BUILD.dir
+C:/Git/2024_1m/MO_FIIT/18_lec/build/CMakeFiles/ZERO_CHECK.dir

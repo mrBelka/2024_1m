@@ -1,0 +1,133 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : true,
+			"name" : "Visual Studio 17 2022",
+			"platform" : "x64"
+		},
+		"paths" : 
+		{
+			"cmake" : "C:/Program Files/CMake/bin/cmake.exe",
+			"cpack" : "C:/Program Files/CMake/bin/cpack.exe",
+			"ctest" : "C:/Program Files/CMake/bin/ctest.exe",
+			"root" : "C:/Program Files/CMake/share/cmake-3.28"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 28,
+			"patch" : 0,
+			"string" : "3.28.0-rc2",
+			"suffix" : "rc2"
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-56e0012bd8a4a675cd8c.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 6
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-bc73ca86dac501031e1b.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-631dd5f90396910587ae.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-b454928ab40b8594c0b4.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-vscode" : 
+		{
+			"query.json" : 
+			{
+				"requests" : 
+				[
+					{
+						"kind" : "cache",
+						"version" : 2
+					},
+					{
+						"kind" : "codemodel",
+						"version" : 2
+					},
+					{
+						"kind" : "toolchains",
+						"version" : 1
+					},
+					{
+						"kind" : "cmakeFiles",
+						"version" : 1
+					}
+				],
+				"responses" : 
+				[
+					{
+						"jsonFile" : "cache-v2-bc73ca86dac501031e1b.json",
+						"kind" : "cache",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "codemodel-v2-56e0012bd8a4a675cd8c.json",
+						"kind" : "codemodel",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 6
+						}
+					},
+					{
+						"jsonFile" : "toolchains-v1-b454928ab40b8594c0b4.json",
+						"kind" : "toolchains",
+						"version" : 
+						{
+							"major" : 1,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "cmakeFiles-v1-631dd5f90396910587ae.json",
+						"kind" : "cmakeFiles",
+						"version" : 
+						{
+							"major" : 1,
+							"minor" : 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

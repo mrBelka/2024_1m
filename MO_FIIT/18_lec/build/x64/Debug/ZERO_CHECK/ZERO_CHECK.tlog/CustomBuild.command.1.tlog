@@ -1,0 +1,10 @@
+^C:\GIT\2024_1M\MO_FIIT\18_LEC\BUILD\CMAKEFILES\7610E114672A7EF2160F4994B7066F6F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/2024_1m/MO_FIIT/18_lec -BC:/Git/2024_1m/MO_FIIT/18_lec/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/2024_1m/MO_FIIT/18_lec/build/sfml_sample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
