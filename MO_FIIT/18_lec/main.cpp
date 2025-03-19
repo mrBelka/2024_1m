@@ -1,6 +1,18 @@
-﻿#include <SFML/Graphics.hpp>
-#include <iostream>
+﻿#include <iostream>
+#include <Game.hpp>
 
+int main() {
+    ab::Game game(1500, 500, "Angry Birds");
+    
+    if(!game.Setup()) {
+        std::cout << "Uncorrect setup" << std::endl;
+        return -1;
+    }
+
+    game.LifeCycle();
+}
+
+/*
 #define PI acos(-1)
 
 float convY(float y) {
@@ -96,3 +108,4 @@ int main()
 
     return 0;
 }
+    */
