@@ -16,7 +16,7 @@ include_directories("inc/")
 include_directories("ext/SFML/include/")
 link_directories("ext/SFML/lib/")
 
-add_executable("${PROJECT_NAME}" main.cpp)	
+add_executable("${PROJECT_NAME}" main.cpp src/Game.cpp)	
 
 target_link_libraries("${PROJECT_NAME}" sfml-graphics-s-d
 						  sfml-window-s-d
@@ -32,3 +32,5 @@ target_link_libraries("${PROJECT_NAME}" sfml-graphics-s-d
 						  vorbisfile
 						  vorbis
 						  ogg)
+
+file(COPY "assets" DESTINATION "${CMAKE_BINARY_DIR}/Debug")

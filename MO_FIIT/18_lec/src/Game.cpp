@@ -3,6 +3,8 @@
 
 namespace ab {
 
+    //sf::Texture Player::m_texture;
+
     Game::Game(unsigned int width, unsigned int height, 
                 const std::string& title) {
         m_width = width;
@@ -49,11 +51,13 @@ namespace ab {
 
             float t = clock.getElapsedTime().asSeconds();
             m_bird.Move(t);
+            //
 
 
             m_window.clear();
             m_window.draw(m_background);
             m_window.draw(m_bird.Get());
+            //
             m_window.display();
         }
     }

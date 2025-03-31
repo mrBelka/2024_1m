@@ -4,6 +4,15 @@
 
 namespace ab {
 
+    /*class Player {
+        private:
+            static sf::Texture m_texture;
+        public:
+            Player() {
+                
+            }
+    };*/
+
     class Game {
         private:
             sf::RenderWindow m_window;
